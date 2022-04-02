@@ -16,22 +16,29 @@ int main(){
     
         printf("\n Seu Imc é %.2f = ", calcImc);
     
-    if (calcImc < 18.5){
-        printf("Abaixo do peso");
+    if (calcImc < 18.5)    
+    {
+        printf("Abaixo do peso");            
     }
-        else if (calcImc >= 18.5 && calcImc < 24.9){
-            printf("Peso normal");
+    else if (calcImc >= 18.5 && calcImc < 24.9)
+    {
+        printf("Peso normal");
     }
-        else if (calcImc >= 24.9 && calcImc < 29.9){
-            printf("Sobrepeso");
+    else if (calcImc >= 24.9 && calcImc < 29.9)
+    {
+        printf("Sobrepeso");
     }
-        else if (calcImc >= 29.9 && calcImc < 34.9){
-            printf("Obesidade grau I");
+    else if (calcImc >= 29.9 && calcImc < 34.9)
+    {
+        printf("Obesidade grau I");
     }
-        else if (calcImc >= 34.9 && calcImc < 39.9){
-            printf ("Obesidade grau II");
+    else if (calcImc >= 34.9 && calcImc < 39.9)
+    {
+        printf ("Obesidade grau II");
     }
-        else if (calcImc > 40){
-            printf("Obesidade grau III (Morbida)");
+    else if (calcImc > 40)
+    {
+        printf("Obesidade grau III (Morbida)");
     }
-return 0;}
+    return 0;
+}
