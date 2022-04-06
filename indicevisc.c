@@ -29,22 +29,18 @@ int main(){
     {
         printf ("Baixo");
     } 
-
     else if (resultado >= 40 && resultado <=79)
     {
         printf ("Médio");
     } 
-
     else if (resultado >= 80 && resultado <=119)
     {
         printf ("Alto");
     } 
-
     else if (resultado >= 120)
     {
         printf ("Muito Alto");
     } 
-
     return 0;
     }
 
