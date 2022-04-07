@@ -2,8 +2,7 @@
 
 int main(){
 
-    float celcius;
-    float fahrenheit, kelvin;
+    float celcius, fahrenheit, kelvin;
 
     printf ("Digite o valor em celcius:");
     scanf ("%f", &celcius);
