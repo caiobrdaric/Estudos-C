@@ -2,44 +2,27 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main (){
- 
+int main ()
+{
     int estacao;
     printf("Digite numericamente o mes que deseja saber a estacao:");
-    scanf ("%d", &estacao);
-    
-    printf("A estacao e:", estacao);
-
-    switch (estacao)
+        scanf ("%d", &estacao);
+    printf ("A estacao e:");
+    if (estacao==1 || estacao==2 || estacao==3)
     {
-    case '1':
-    case '2':
-    case '3': 
-        printf("Verao");
-        break;
-
-    case '4':
-    case '5':
-    case '6': 
-        printf("Outono");
-    break;
-
-    case '7':
-    case '8':
-    case '9': 
-        printf("Inverno");
-    break;
-
-    case '10':
-    case '11':
-    case '12': 
-        printf("Primavera");
-    break;
-    
-    default:
-      printf("Invalido");
-
-     return 1;
-    } 
+        printf(" Verão");
+    }
+    if (estacao==4 || estacao==5 || estacao==6)
+    {
+        printf (" Outuno");
+    }
+    if (estacao==7 ||estacao==8 || estacao==9)
+    {
+        printf(" Inverno");
+    }
+    if (estacao==10 || estacao==11 || estacao==12)
+    {
+        printf(" Primavera");
+    }
     return 0;
 }
