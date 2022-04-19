@@ -1,32 +1,33 @@
 #include <stdio.h>
-#include <stdlib>
-#include <math.h>
+#include <stdlib.h>
 
-int main()
-{
     float salario, aliquota, salLiq;
     printf("Digite o salário do funcionario");
         scanf("%f" &salario);
-    printf("Salário liquido de %.2f:", salLiq);
     if (salario <= 1903.38)
     {
-        //Insento de alíquota
+        printf("Não há alicota");
     }
     if (salario >= 1903.39 && salario <= 2826.65)
     {
-        //Aplicar 7,5% de alíquota
+        aliquota=0.925;
+        salLiq=salario*aliquota;
     }
-    if (salario >= 2826.66 && salario 3751.06 <=)
+    if (salario >= 2826.66 && salario <= 3751.06)
     {
-        //Aplicar 15% de alíquota
+        aliquota=0.85;
+        salLiq=salario*aliquota;
     }
-    if (salario >= 3751.07 && salario 4664.68 <=)
+    if (salario >= 3751.07 && salario <= 4664.68)
     {
-        //Aplicar 22,5% de alíquota
+        aliquota=0.775;
+        salLiq=salario*aliquota;
     }
-    if (salario > 4664.69)
+    if (salario >= 4664.69)
     {
-        //Aplicar 27,5% de alíquota
+        aliquota=0.725;
+        salLiq=salario*aliquota;
     }
+    printf("Salário liquido de %.3f:", salLiq);
     return 0;
-}
+} 
