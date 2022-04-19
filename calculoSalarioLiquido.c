@@ -3,7 +3,7 @@
 
     float salario, aliquota, salLiq;
     printf("Digite o salário do funcionario:");
-        scanf("%f" &salario);
+        scanf("%f", &salario);
     if (salario <= 1903.38)
     {
         printf("Não há alicota");
