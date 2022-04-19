@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+int main()
+{
     float salario, aliquota, salLiq;
     printf("Digite o salário do funcionario:");
         scanf("%f", &salario);
