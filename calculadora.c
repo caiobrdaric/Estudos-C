@@ -42,6 +42,5 @@ char oprt;
         return 1;
     }
     printf("\n Result = %.0f \n", result);
-
     return 0;
 }

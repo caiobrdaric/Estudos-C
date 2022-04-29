@@ -6,7 +6,6 @@ int main()
     int numero, quociente, primo, maximo;
     printf("Digite o valor maximo:");
     scanf("%d", &maximo);
-    
     for (numero = 2; numero <=maximo, numero++;)
     {
         primo = 1;

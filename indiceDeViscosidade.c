@@ -7,20 +7,15 @@ int main(){
 
     printf ("Digite o valor de L1:");
         scanf ("%f", &L1);
-
     printf ("Digite o valor de L2:");
         scanf ("%f", &L2);
-
     printf ("Digite o valor de U:");
         scanf ("%f", &U);
 
     printf ("Digite o valor de H:");
         scanf ("%f", &H);
-
     resultado = (L1-U)/(L2-H);
-
     printf ("O indice de viscosidade do seu oleo é %.2f:", resultado);
-
     if (resultado <= 0)
     {
         printf ("Muito baixo");
