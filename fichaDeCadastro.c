@@ -38,5 +38,5 @@ printf ("\n Idade: %d", idade);
 printf ("\n Peso: %.2f", peso);
 printf ("\n Altura: %.2f", altura);
 printf ("\n Sexo: %c", sexo);
-    return 0;
+return 0;
 }
